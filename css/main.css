@@ -3,9 +3,8 @@
   box-sizing: border-box;
 }
 
-html,
 body {
-  height: 99vh;
+  height: 98vh;
 }
 
 body {
@@ -179,10 +178,9 @@ body {
   display: flex;
   gap: 20px;
   flex-direction: column-reverse;
+  justify-content: space-evenly;
   overflow-y: auto;
-  overflow-x: auto;
-  height: 100vh;
-  align-items: center;
+  height: 99vh;
   border-radius: 30px;
 }
 .favorites::-webkit-scrollbar {
@@ -298,13 +296,11 @@ body {
     font-size: 15px;
   }
   .favorites {
-    position: absolute;
+    position: fixed;
     max-height: 100vh;
     top: 84vh;
     flex-direction: row-reverse;
     overflow-x: auto;
-    overflow-y: auto;
-
     max-width: 98vw;
     left: 3px;
     margin-right: 5px;
@@ -314,10 +310,12 @@ body {
     padding-top: 0px;
     padding-bottom: 0px;
     justify-content: space-evenly;
+    align-items: center;
   }
   .favorite__avatar {
     width: 50px;
-    margin-left: 25%;
+    align-content: center;
+    
   }
   .result__error {
     font-size: 12px;
