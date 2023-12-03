@@ -21,5 +21,5 @@ app.component('app-profile',{
         </p>
     </div>
     `
-})
+})  
 
