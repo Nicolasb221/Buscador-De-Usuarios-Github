@@ -180,6 +180,8 @@ body {
   gap: 20px;
   flex-direction: column-reverse;
   overflow-y: auto;
+  overflow-x: auto;
+  height: 100vh;
   align-items: center;
   border-radius: 30px;
 }
@@ -301,6 +303,8 @@ body {
     top: 84vh;
     flex-direction: row-reverse;
     overflow-x: auto;
+    overflow-y: auto;
+
     max-width: 98vw;
     left: 3px;
     margin-right: 5px;
