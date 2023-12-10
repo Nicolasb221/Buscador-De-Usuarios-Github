@@ -4,3 +4,4 @@ En este proyecto utilicé el framework Vue.js, además puse a prueba mis conocim
 
 El funcionamiento se encuentra en el video adjunto a la carpteta del proyecto.
 
+PageSpeed Insights: https://pagespeed.web.dev/analysis/https-busquegithub-netlify-app/pitsmp6fyf?form_factor=mobile
